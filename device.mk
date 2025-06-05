@@ -39,3 +39,4 @@ $(call inherit-product, device/amlogic/gx-common/gx.mk)
 
 ## Inherit from the proprietary files makefile
 $(call inherit-product, vendor/google/beast/beast-vendor.mk)
+$(call inherit-product, vendor/lindroid/lindroid.mk)
